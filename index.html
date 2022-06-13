@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>MagicRing</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="540px" width="960px"></canvas>
+      <br>
+
+
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 402653184,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/GameStudies.data",
+    codeUrl: "Release/GameStudies.js",
+    memUrl: "Release/GameStudies.mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+
+<script src="//pippinbarr.com/js/tracking.js"></script>
+
+  </body>
+</html>
